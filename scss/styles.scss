@@ -570,6 +570,7 @@ footer {
     top: 10px;
     font-weight: 300;
     color: #374054;
+    margin-top: 5px;
 }
 
 /*
@@ -653,6 +654,8 @@ footer {
 }
 
 .project-image {
+    padding: 30px;
+    margin-left: 40px;
     float: left;
 }
 
@@ -660,7 +663,7 @@ footer {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 300px;
+    margin-left: 430px;
     padding: 15px;
 
     h3 {
