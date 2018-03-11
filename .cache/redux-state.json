@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/home/marcofp/Documents/github/portfolio-web/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/home/marcofp/Documents/github/portfolio-web/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "aeec170f4b2a683c1c85d1d669dc512b",
         "owner": "internal-data-bridge"
       }
     },
@@ -235,7 +244,7 @@
       "resolve": "/home/marcofp/Documents/github/portfolio-web/node_modules/gatsby-plugin-react-helmet",
       "id": "Plugin gatsby-plugin-react-helmet",
       "name": "gatsby-plugin-react-helmet",
-      "version": "2.0.6",
+      "version": "2.0.7",
       "pluginOptions": {
         "plugins": []
       },
@@ -248,15 +257,13 @@
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Stub description for gatsby-plugin-react-helmet",
-        "version": "2.0.6",
+        "version": "2.0.7",
         "main": "index.js",
         "keywords": [
-          "gatsby"
+          "gatsby",
+          "gatsby-plugin"
         ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "matthews.kyle@gmail.com"
-        },
+        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -290,7 +297,88 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "670119d9ae7e16149701fd0673a99ab5",
+        "contentDigest": "f42b49c82ced76a644e9cba4a5219c43",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sass": {
+      "resolve": "/home/marcofp/Documents/github/portfolio-web/node_modules/gatsby-plugin-sass",
+      "id": "Plugin gatsby-plugin-sass",
+      "name": "gatsby-plugin-sass",
+      "version": "1.0.20",
+      "pluginOptions": {
+        "plugins": [],
+        "precision": 8
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/marcofp/Documents/github/portfolio-web/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "1.0.20",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sass",
+          "scss"
+        ],
+        "author": "Daniel Farrell <daniel@mobelux.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "extract-text-webpack-plugin",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.10"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.5.2"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "webpack",
+            "version": "^1.13.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "202dcb08bb1e68a05796d77469ccceb7",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -299,7 +387,7 @@
       "resolve": "/home/marcofp/Documents/github/portfolio-web",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "72c0d37b2bb406acb273b4e25d7d77c3",
+      "version": "43b53a12239c580dfd53a119ef1e2c27",
       "pluginOptions": {
         "plugins": []
       },
@@ -318,6 +406,10 @@
         "license": "MIT",
         "dependencies": [
           {
+            "name": "bootstrap",
+            "version": "3.3.7"
+          },
+          {
             "name": "gatsby",
             "version": "^1.9.223"
           },
@@ -328,6 +420,14 @@
           {
             "name": "gatsby-plugin-react-helmet",
             "version": "^2.0.6"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^1.0.20"
+          },
+          {
+            "name": "jquery",
+            "version": "^3.3.1"
           },
           {
             "name": "react-helmet",
@@ -347,7 +447,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ffab027d03b840901e93927347e0a3f8",
+        "contentDigest": "1e36cc15bdf5e9a34d7b48feb27179aa",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -356,14 +456,16 @@
       "siteMetadata": {
         "title": "Gatsby Default Starter"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-03-11T19:40:05.864Z",
+      "buildTime": "2018-03-11T20:57:15.916Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "40240204c0eff903d307886e64b9f667",
+        "contentDigest": "12271d52143fa76bc510ae89cae5f789",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -384,7 +486,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fae410e48bf938298dfa05bf19a767e3",
+        "contentDigest": "7a3118ed5a67f852eb667145927ab830",
         "owner": "internal-data-bridge"
       }
     },
@@ -404,27 +506,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f7662438cd71aa4f043bd4d5ea9ea6b5",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /page-2/": {
-      "layout": "index",
-      "jsonName": "page-2.json",
-      "internalComponentName": "ComponentPage2",
-      "path": "/page-2/",
-      "component": "/home/marcofp/Documents/github/portfolio-web/src/pages/page-2.js",
-      "componentChunkName": "component---src-pages-page-2-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/home/marcofp/Documents/github/portfolio-web/src/pages/page-2.js",
-      "id": "SitePage /page-2/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "84b3a1da7690731f24534fa2c9ac53a8",
+        "contentDigest": "5aac4f705dfcfe6f9e938b6b99e560a7",
         "owner": "internal-data-bridge"
       }
     },
@@ -444,17 +526,21 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "56e733e89db836a41a7cdf1186522a2e",
+        "contentDigest": "c74b1024098437166a1f64e7f6c1cf2c",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "f42a5e408fdbf31a4c6956091378527e"
+    "PLUGINS_HASH": "65614f8e3a07b0c3b12bd872b4fa63e6"
   },
   "componentDataDependencies": {
     "nodes": {},
-    "connections": {}
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
   }
 }
