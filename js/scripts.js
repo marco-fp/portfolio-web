@@ -108,7 +108,7 @@ var opts = {
 	lineColor: "rgb(255,255,255)",
 	particleAmount: 50,
 	defaultSpeed: 1,
-	variantSpeed: 2,
+	variantSpeed: 1,
 	defaultRadius: 1,
 	variantRadius: 3,
 	linkRadius: 150,
